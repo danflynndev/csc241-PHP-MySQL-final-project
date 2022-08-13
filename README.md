@@ -32,3 +32,10 @@ To view the results of the inner join query, use Query Courses under Student Tab
 - The data does not follow best modeling practices like normalization. The shape of the dataset conforms to the instructors expectation.
 - Lots of repetition across files. Needs to be DRY-ed out.
 - No authorization implemented for admin functionality - outside the scope of this project.
+
+### Images
+
+![index page view](./images/index_view.png)
+![insert records form](./images/insert_record_form.png)
+![full table results](./images/select_all_view.png)
+![join query results](./images/sid_query.png)
