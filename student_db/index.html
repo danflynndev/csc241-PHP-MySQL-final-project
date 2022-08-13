@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <form name='dataForm' method="POST" action="process.php">
+        Student ID:<input type="text" name="sid" id="sid" required>
+        <br/>
+        First Name:<input type="text" name="fname" id="fname" required>
+        <br/>
+        Last Name:<input type="text" name="lname" id="lname" required>
+        <br/>
+        Middle Initial:<input type="text" name="m_name" id="m_name">
+        <br/>
+        Suffix:<input type="text" name="suffix" id="suffix">
+        <br/>
+        Street Address:<input type="text" name="street" id="street" required>
+        <br/>
+        City:<input type="text" name="city" id="city" required>
+        <br/>
+        State:<input type="text" name="state" id="state" required>
+        <br/>
+        Zip Code:<input type="text" name="zip" id="zip" required>
+        <br/>
+        Email:<input type="text" name="email" id="email" required>
+        <br/>
+        Phone Number(Home):<input type="text" name="h_phone" id="h_phone">
+        <br/>
+        Phone Number(Cell):<input type="text" name="c_phone" id="c_phone">
+        <br/>
+        Date of Birth:<input type="date" name="dob" id="dob" required>
+        <br/>
+        Parent/Guardian:<input type="text" name="guardian" id="guardian">
+        <br/>
+        Emergency Contact Name:<input type="text" name="e_name" id="e_name" required>
+        <br/>
+        Emergency Contact Number:<input type="text" name="e_phone" id="e_phone" required>
+        <br/>
+        Emergency Contact Relationship:<input type="text" name="e_rel" id="e_rel" required>
+        <br/>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
